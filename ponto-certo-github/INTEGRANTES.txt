@@ -1,0 +1,21 @@
+GLOBAL SOLUTION 2026.2 - Cross-Platform Application Development
+App: Ponto Certo (API Olho Vivo da SPTrans + GPS + notificações)
+
+INTEGRANTES E RESPONSABILIDADES
+(ajuste a divisão abaixo conforme o que cada um fez)
+
+1. Ana Carolina Pereira Lopez - RM568401
+   - Integração com a API Olho Vivo (src/services/olhoVivo.js): autenticação,
+     busca de pontos, previsão de chegada e pontos por linha
+   - Tela "Próximos ônibus" (src/screens/PrevisaoParada.js)
+
+2. Enzo Hitoshi Oda - RM567313
+   - GPS com expo-location (src/hooks/useLocalizacao.js) e tratamento das permissões
+   - Busca de pontos próximos (src/services/paradasProximas.js, src/utils/geo.js)
+   - Tela inicial "Pontos perto de você" (src/screens/PontosProximos.js)
+
+3. Henrique Fessel Trench - RM567513
+   - Notificações locais e vibração (src/services/alertas.js)
+   - Telas "Me avise" (src/screens/AvisoOnibus.js) e
+     "Desça no ponto certo" (src/screens/DescerNoPonto.js)
+   - README e gravação do vídeo de demonstração

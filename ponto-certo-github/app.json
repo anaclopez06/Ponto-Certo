@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Ponto Certo",
+    "slug": "ponto-certo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#10131A",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#10131A",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O Ponto Certo usa sua localização para encontrar os pontos de ônibus perto de você e avisar quando estiver chegando ao seu ponto de descida."
+        }
+      ],
+      "expo-notifications"
+    ]
+  }
+}
